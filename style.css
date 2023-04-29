@@ -93,11 +93,10 @@ fieldset legend {
 }
 
 
-.input-wrapper label {
-    display: flex;
-    
-    
+.input-wrapper {
+    line-height: 38px;
 }
+
 
 .input-wrapper input {
     background: #FAFAFC;
@@ -115,7 +114,6 @@ fieldset legend {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 26px;
 }
 
 .input-wrapper span {
@@ -135,3 +133,4 @@ fieldset legend {
 .coluna-1 > div:nth-child(2){
   width: 100%;
 }  
+
