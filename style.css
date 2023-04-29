@@ -144,3 +144,16 @@ fieldset legend {
     margin-top: 8px;
 }
 
+
+.coluna-2 {
+    display: flex;
+    gap: 32px;   
+}
+
+.coluna-3 {
+    display: flex;
+    gap: 32px;
+}
+.coluna-2,.coluna-3 legend {
+    margin-top: 40px;
+}
