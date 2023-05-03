@@ -197,9 +197,8 @@ footer  {
     padding: 50px;
 
     height: 160px;
-  
-    
-    
+    line-height: 26;
+
 }
 
 #btn-save {
@@ -215,7 +214,7 @@ footer  {
     font-family: 'Staatliches';
     font-style: normal;
     font-weight: 400;
-    font-size: 26px;
+    font-size: 20px;
     
 }
 
@@ -226,5 +225,5 @@ footer  {
 
 /* Configuração de cor quando o campo estiver incorreto ou não foi preenchido */
 input:invalid {
-    border: 1px solid #ec9d9d;
+    border: 1px solid #de4c4c;
   }
