@@ -76,7 +76,10 @@ fieldset {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    
 }
+
+
 
 fieldset legend {
     color: #535971;
@@ -106,6 +109,7 @@ fieldset legend {
     height: 56px;
     width: 100%;
     color: #757591;
+    
 }
   
 .input-wrapper label span {
@@ -136,22 +140,28 @@ fieldset legend {
 
 .separator-2 {
     border: 1px solid #E6E6F0;
-    line-height: 20px;
+    margin-bottom: 25px;
+    margin-top: 8px;
+    
 }
 
 .separator-3 {
     border: 1px solid #E6E6F0;
+    margin-bottom: 32px;
     margin-top: 8px;
 }
 
 
 .coluna-2 {
     display: flex;
-    gap: 32px;   
-   
+    gap: 8px;   
     font-size: 14px;
-    line-height: 24px;
 }
+
+.coluna-3 .input-wrapper {
+    margin-left: 1px;
+}
+
 
 .coluna-3 {
     display: flex;
@@ -159,6 +169,21 @@ fieldset legend {
     font-size: 14px;
     line-height: 24px;
 }
+
+
 .coluna-2,.coluna-3 legend {
     margin-top: 40px;
 }
+
+.fieldset-time-date legend {
+    margin-top: 40px;
+}
+
+.fieldset-time-date .coluna-2{
+    margin-top: 8px;
+}
+
+.fieldset-time-date .coluna-3 {
+    margin-top: 8px;
+}
+
