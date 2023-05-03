@@ -188,15 +188,43 @@ fieldset legend {
 }
 
 footer  {
+    display: flex;
+    flex-direction: column;
+
     background: #535971;
     border-radius: 0px 0px 20px 20px;
+
     padding: 50px;
+
+    height: 160px;
+  
+    
     
 }
 
 #btn-save {
     padding: 15px 40px;
     background: #FF5374;
-    border-radius: 20px;        
+    border-radius: 20px;    
    
+    
+    border: 0;
+    color: #FFFFFF;  
+   
+    
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    
 }
+
+#btn-save:hover {
+    background: #cd2828;
+    transition: 1s;
+}
+
+/* Configuração de cor quando o campo estiver incorreto ou não foi preenchido */
+input:invalid {
+    border: 1px solid #ec9d9d;
+  }
